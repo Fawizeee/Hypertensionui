@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Heart, Activity, AlertTriangle, CheckCircle } from 'lucide-react';
 import './App.css';
 
-const API_BASE_URL = 'http://backendhypertension-production.up.railway.app/api';
+const API_BASE_URL = 'https://backendhypertension-production.up.railway.app/api';
 
 function App() {
   const [formData, setFormData] = useState({
