@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Heart, Activity, AlertTriangle, CheckCircle } from 'lucide-react';
 import './App.css';
 
-const API_BASE_URL = https://backendhypertension.vercel.app';
+const API_BASE_URL = 'https://backendhypertension.vercel.app';
 
 function App() {
   const [formData, setFormData] = useState({
